@@ -1,0 +1,19 @@
+.btn-ctl{
+    width: 49%;
+    margin: 3px;
+    font-size: 32px;
+}
+
+#result-div{
+    font-size: 24px;
+}
+
+#interim-div{
+    font-size: 24px;
+    color: gray
+}
+
+#status-div{
+    font-size: 20px;
+    color: rgb(255, 175, 2);
+}
