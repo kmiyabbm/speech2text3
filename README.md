@@ -1,15 +1,16 @@
 # 文字おこしさん 〜Speech-to-Text san〜
 
 [Web Speech API(のSpeechRecognitionインターフェイス)](https://developer.mozilla.org/ja/docs/Web/API/SpeechRecognition) を使って、ブラウザにつながったマイクに入力された音声を認識して文字おこしするアプリです。  
-ブラウザ上で動作するため、入力された音声や文字起こし結果が保存されることはありませんが、裏ではGoogle Cloud Speech API に接続されているっぽいのでGoogleのサーバー上には保存されている可能性があります。
+ブラウザ上で動作するため、入力された音声や文字起こし結果が保存されることはありませんが、裏ではGoogle Cloud Speech API に接続されているっぽいのでGoogleのサーバー上には保存されている可能性があります。  
+
+Web Speech API は無料で使えるため特に費用はかかりませんが、**文字起こし中は音声データをインターネットにアップロードしているため、Wi-Fi環境下にない場合は「ギガが減り」ます**。
 
 ## 使い方
-
-- デモサイトで試す
+### デモサイトで試す
 
 **Chromeで** https://kmiyabbm.github.io/speech2text3/ にアクセス！
 
-- 手元のマシンで試す
+### 手元のマシンで試す
 
 Node.js や npm がインストール済みなら、http-server をローカルインストールして起動するのが簡単です。
 
